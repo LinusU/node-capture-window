@@ -1,0 +1,21 @@
+{
+  "name": "capture-window",
+  "version": "0.1.0",
+  "license": "MIT",
+  "author": "Linus Unnebäck <linus@folkdatorn.se>",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/LinusU/node-capture-window.git"
+  },
+  "dependencies": {
+    "fs-temp": "^0.1.1",
+    "nan": "^1.5.1"
+  },
+  "devDependencies": {
+    "mocha": "^2.1.0"
+  }
+}
