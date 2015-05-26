@@ -7,6 +7,7 @@
     ],
     "conditions": [
       ["OS==\"mac\"", {
+        "libraries": [ "-framework Foundation" ],
         "xcode_settings": {
           "OTHER_CFLAGS": [ "-ObjC++" ]
         }
