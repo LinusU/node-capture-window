@@ -5,7 +5,7 @@
   "author": "Linus Unnebäck <linus@folkdatorn.se>",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "standard && mocha"
   },
   "repository": {
     "type": "git",
@@ -16,6 +16,7 @@
     "nan": "^1.8.4"
   },
   "devDependencies": {
-    "mocha": "^2.1.0"
+    "mocha": "^2.1.0",
+    "standard": "^4.3.1"
   }
 }
