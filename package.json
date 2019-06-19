@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "fs-temp": "^0.1.1",
-    "nan": "^2.0.5"
+    "node-addon-api": "^1.6.3"
   },
   "devDependencies": {
     "mocha": "^2.1.0",
