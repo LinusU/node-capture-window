@@ -1,7 +1,4 @@
 
-#include <node.h>
-#include <nan.h>
-
 #include "base.cc"
 
 #ifdef __APPLE__
