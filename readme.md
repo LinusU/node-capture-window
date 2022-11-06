@@ -22,9 +22,12 @@ captureWindow('Finder', 'Downloads').then((filePath) => {
 
 ### `captureWindow(bundle, title[, filePath])`
 
-Captures the window with the title `title` of type `bundle`. `bundle` is usually the name of the application, e.g. `Finder`, `Safari`, `Terminal`.
+- `bundle` (`string`, required)
+- `title` (`string`, required)
+- `filePath` (`string | null`, optional)
+- returns `Promise<string>` - path to a png file
 
-Returns a `Promise` that resolves to the path of a png file.
+Captures the window with the title `title` of type `bundle`. `bundle` is usually the name of the application, e.g. `Finder`, `Safari`, `Terminal`.
 
 ## OS Support
 

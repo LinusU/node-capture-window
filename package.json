@@ -4,7 +4,7 @@
   "license": "MIT",
   "main": "index.js",
   "scripts": {
-    "test": "standard && mocha"
+    "test": "standard && mocha && ts-readme-generator --check"
   },
   "repository": "LinusU/node-capture-window",
   "dependencies": {
@@ -12,7 +12,8 @@
   },
   "devDependencies": {
     "mocha": "^7.2.0",
-    "standard": "^15.0.1"
+    "standard": "^15.0.1",
+    "ts-readme-generator": "^0.7.3"
   },
   "engines": {
     "node": ">=8.10.0"
