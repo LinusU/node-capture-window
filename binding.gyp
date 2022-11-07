@@ -1,15 +1,12 @@
 {
   "targets": [{
-    "target_name": "capture-window",
-    "sources": [ "src/capture-window.cc" ],
-    "include_dirs" : [
-      "<!(node -e \"require('nan')\")"
-    ],
+    "target_name": "capture_window",
+    "sources": [ "src/capture-window.c" ],
     "conditions": [
       ["OS==\"mac\"", {
-        "libraries": [ "-framework Foundation" ],
+        "libraries": [ "-framework Cocoa", "-framework CoreGraphics" ],
         "xcode_settings": {
-          "OTHER_CFLAGS": [ "-ObjC++" ]
+          "OTHER_CFLAGS": [ "-ObjC" ]
         }
       }]
     ]
